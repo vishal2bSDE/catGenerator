@@ -1,0 +1,36 @@
+body{
+    /* display: flex;
+    justify-content: center;  */
+    width: 70%;
+    margin: 0 auto;
+    background: rgb(203, 223, 172);
+    padding: .5rem;
+    margin-top: 2%;
+    /* border: 3px dotted black; */
+}
+.container-2{
+    border: 3px dotted black;
+    padding: .5rem;
+    text-align: center;
+    background: rgb(188, 226, 130);
+}
+.flex-box-container-2{
+    display: flex;
+    flex-wrap: wrap;
+    border-top: 3px solid black;
+    background: rgb(162, 228, 64);
+    margin-top: 2%;
+    padding: 5px;
+    /* padding-top: 2px; */
+    justify-content: space-around;
+}
+.flex-box-container-2 img{
+    /* padding: 10px;background: black; */
+    margin-bottom: 10px; 
+    border: 3px solid rgba(0, 0, 0, 1);
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, .7);
+    width: 250px;
+    height: 130px;
+    /* max-width: 100%; */
+}
+/* http://api.thecatapi.com/api/images/get?format=src&type=gif&size */
